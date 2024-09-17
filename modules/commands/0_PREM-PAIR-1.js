@@ -1,7 +1,7 @@
 const PREM_BABU= "PREM-PROJECT"; // Original credit
 
 module.exports.config = {
-  name: "pair",
+  name: "couple",
   version: "1.0.0", 
   hasPermssion: 0,
   credits: PREM_BABU,
