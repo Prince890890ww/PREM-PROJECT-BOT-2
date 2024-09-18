@@ -1,10 +1,10 @@
 module.exports.config = {
-	name: "unsend",
+	name: "remove",
 	version: "1.0.1",
 	hasPermssion: 1,
 	credits: "Mirai Team",
 	description: "Unsend bot's messages",
-    usePrefix: true,
+    usePrefix: false,
 	commandCategory: "message",
 	usages: "unsend",
 	cooldowns: 0
