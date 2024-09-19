@@ -181,12 +181,13 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   if (event.body.includes("Bot") == 1 ||
    (event.body.includes("bot") == 1 ||
    (event.body.includes("Taklu") == 1 ||
+   (event.body.includes("TAKLU") == 1 ||
    (event.body.includes("taklu") == 1 ||
    (event.body.includes("टकलू") == 1 ||
    (event.body.includes("tklu") == 1 ||
    (event.body.includes("Tklu") == 1 ||
    (event.body.includes("Oye") == 1 ||
-   (event.body.includes("oye") == 1 ))))))))) {
+   (event.body.includes("oye") == 1 )))))))))) {
     var msg = {
       body: `${rand}`
     }
