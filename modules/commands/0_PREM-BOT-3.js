@@ -31,7 +31,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   
   if (event.body.includes("Prem") == 1 || (event.body.includes("Takla") == 1)) {
     var msg = {
-      body: `🐥 ${name} 🐥\n\n 👉${rand} \n\n   ❁ ══════ ❃ प्रेम बाबू ❃ ══════ ❁`
+      body: `${rand}`
     }
     return api.sendMessage(msg, threadID, messageID);
   };
