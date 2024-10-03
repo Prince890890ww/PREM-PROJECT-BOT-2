@@ -1,14 +1,12 @@
 version: 1
 services:
   - type: web
-    name: Priyansh-Bot  # आपके bot का नाम
+    name: PREM-PROJECT-BOT  # आपके bot का नाम (यहां पर बदलाव करें)
     env: node
     plan: starter  # आप चाहें तो इसे बदल सकते हैं
     buildCommand: npm install
     startCommand: npm start
     envVars:
-      - key: FACEBOOK_PAGE_ACCESS_TOKEN  # यदि आपके पास कोई access token है
-        value: YOUR_FACEBOOK_PAGE_ACCESS_TOKEN  # अपने actual token के साथ बदलें
       # यहां अन्य आवश्यक environment variables जोड़ें
     autoDeploy: true
     regions:
