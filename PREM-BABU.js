@@ -1,7 +1,4 @@
-0
-01:00 PM	13:00
-02:00 PM	14:00
-0var cron = require("node-cron");
+var cron = require("node-cron");
 const { exec } = require("child_process");
 var cron = require('node-cron');
 cron.schedule('33 */27 * * * *', () => {
