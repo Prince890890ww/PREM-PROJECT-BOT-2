@@ -1,15 +1,15 @@
+version: 1
 services:
-  - name: PREM-PROJECT
-    runtime: node
+  - type: web
+    name: Priyansh-Bot  # आपके bot का नाम
     env: node
-    buildCommand: "npm install"
-    startCommand: "npm start"
-    region: oregon
-    branch: main
+    plan: starter  # आप चाहें तो इसे बदल सकते हैं
+    buildCommand: npm install
+    startCommand: npm start
     envVars:
-      XDG_CONFIG_HOME: "/home/render/.config"
-      PATH: "/home/render/.config/npm/node_global/bin:/home/render/node_modules/.bin"
-      npm_config_prefix: "/home/render/.config/npm/node_global"
-    extraPorts:
-      - internalPort: 80
-        externalPort: 80
+      - key: FACEBOOK_PAGE_ACCESS_TOKEN  # यदि आपके पास कोई access token है
+        value: YOUR_FACEBOOK_PAGE_ACCESS_TOKEN  # अपने actual token के साथ बदलें
+      # यहां अन्य आवश्यक environment variables जोड़ें
+    autoDeploy: true
+    regions:
+      - us  # आपके bot के लिए क्षेत्र सेट करें, इसे अपने आवश्यकता के अनुसार बदलें
