@@ -16,7 +16,7 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users, get
 	const { createReadStream } = global.nodemodule["fs-extra"];
   const axios = global.nodemodule["axios"];
   const fs = global.nodemodule["fs-extra"];
-  let pathImg = __dirname + "/UNKNOWN/RANK/rankup.png";
+  let pathImg = __dirname + "/PREM-BABU/RANKUP/rankup.png";
   
 	threadID = String(threadID);
 	senderID = String(senderID);
