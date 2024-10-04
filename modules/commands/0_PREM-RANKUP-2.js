@@ -38,16 +38,27 @@ module.exports.handleEvent = async function({ api, event, Currencies, Users, get
 
 	if (level > curLevel && level != 1) {
 		var memes = [
-      "https://i.imgur.com/funny1.jpeg",
-      "https://i.imgur.com/funny2.jpeg",
-      "https://i.imgur.com/funny3.jpeg",
-      "https://i.imgur.com/funny4.jpeg",
-      "https://i.imgur.com/funny5.jpeg",
-      "https://i.imgur.com/funny6.jpeg",
-      "https://i.imgur.com/funny7.jpeg",
-      "https://i.imgur.com/funny8.jpeg",
-      "https://i.imgur.com/funny9.jpeg",
-      "https://i.imgur.com/funny10.jpeg"
+"https://i.imgur.com/zoQxUwC.jpg" ,
+"https://i.imgur.com/bXVBasN.jpg" ,
+"https://i.imgur.com/E3bMZMM.jpg" ,
+"https://i.imgur.com/pkchwDe.jpg" ,
+"https://i.imgur.com/PFV6etU.jpg" ,
+"https://i.imgur.com/DLElS0y.jpg" ,
+"https://i.imgur.com/6hufzML.jpg" ,
+"https://i.imgur.com/ikevA6M.jpg" ,
+"https://i.imgur.com/aGuU2tB.jpg" ,
+"https://i.imgur.com/tsUsL6B.jpg" ,
+"https://i.imgur.com/sAUL2X0.jpg" ,
+"https://i.imgur.com/fGSX9z3.jpg" ,
+"https://i.imgur.com/TeT8dXA.jpg" ,
+"https://i.imgur.com/kCnHvly.jpg" ,
+"https://i.imgur.com/DLElS0y.jpg" ,
+"https://i.imgur.com/wfB1cU7.jpg" ,
+"https://i.imgur.com/dmUAjtN.jpg" ,
+"https://i.imgur.com/RqaTxa4.jpg" ,
+"https://i.imgur.com/gXFNJGi.jpg" ,
+"https://i.imgur.com/DwDTSsS.jpg" ,
+"https://i.imgur.com/BSreuve.jpg"
     ];
     var randomMeme = memes[Math.floor(Math.random() * memes.length)];
 
