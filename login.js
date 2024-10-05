@@ -1,5 +1,5 @@
 touconst fs = require("fs");
-const login = require("priyanshu-fca");
+const login = require("fca-priyansh");
 
 var credentials = {email: "FB_EMAIL", password: "FB_PASSWORD"}; // credential information
 
