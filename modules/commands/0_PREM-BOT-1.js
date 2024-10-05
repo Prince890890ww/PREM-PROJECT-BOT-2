@@ -26,8 +26,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var rand = tl[Math.floor(Math.random() * tl.length)];
 
   // अगर कोई खाली संदेश भेजता है
-  if (event.body.toLowerCase() === "") {
-    return api.sendMessage("आर ये सब मत भेजा करो मेरा सर दर्द होता है। 🤕👈", threadID);
+  if (event.body.toLowerCase() === "🙈") {
+    return api.sendMessage("🫣🫣🫣🫣🫣", threadID);
   }
 
   // Owner के Facebook UID
