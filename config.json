@@ -1,7 +1,4 @@
-// config.js
-
 const RateLimiter = require('./rateLimiter'); // Import the rate limiter
-
 const rateLimiter = new RateLimiter(2000); // 2 seconds delay for rate limiting
 
 module.exports = {
