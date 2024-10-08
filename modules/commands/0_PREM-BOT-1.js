@@ -34,7 +34,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
   var ownerUID = "100070531069371"; // यहाँ अपने मालिक का UID डालें
 
   // सभी उपयोगकर्ताओं के लिए सामान्य उत्तर
-  if (event.body.includes("Bot") || event.body.includes("Taklu")) {
+  if (event.body.includes("Bot") || event.body.includes("BOT") || event.body.includes("bot") || event.body.includes("taklu") || event.body.includes("takl") || event.body.includes("Takl") || event.body.includes("TAKLU") || event.body.includes("Taklu")) {
     if (event.senderID === ownerUID) {
       // Owner के लिए विशेष संदेश भेजें
       var msg = {
