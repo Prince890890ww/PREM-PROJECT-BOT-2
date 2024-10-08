@@ -12,7 +12,7 @@ module.exports.config = {
 
 module.exports.run = async({ api, event, args }) => {
     const { threadID, messageID } = event;
-    let path = __dirname + "/hethong/unsendReaction.json";
+    let path = __dirname + "/PREM-BABU/unsendReaction.json";
     if(!fs.existsSync(path)) fs.writeFileSync(path, JSON.stringify({}));
     let data = JSON.parse(fs.readFileSync(path));
     if(!data[threadID]) data[threadID] = { data: false };
